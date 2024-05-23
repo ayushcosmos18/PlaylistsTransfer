@@ -12,7 +12,7 @@ app.config['SECRET_KEY'] = os.urandom(64)
 # Spotify credentials
 client_id = '2e5eacb03139425f8b3544cb6d525122'
 client_secret = '22dfed236ea14cd9aa7034a6cabf8dcf'
-redirect_uri = 'http://localhost:5000/callback'
+redirect_uri = 'https://playliststransfer.onrender.com/callback'
 scope = 'playlist-modify-public playlist-read-private'
 
 # YouTube API key
